@@ -1,0 +1,25 @@
+{
+  "name": "esbuild-plugin-vite-element-ui",
+  "version": "1.0.0",
+  "description": "esbuild-plugin-vite-element-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'esbuild-plugin-vite-element-ui' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dravenww/esbuild-plugin-vite-element-ui.git"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "vite",
+    "element-ui"
+  ],
+  "author": "dravenww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dravenww/esbuild-plugin-vite-element-ui/issues"
+  },
+  "homepage": "https://github.com/dravenww/esbuild-plugin-vite-element-ui#readme"
+}
