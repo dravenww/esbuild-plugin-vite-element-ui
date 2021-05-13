@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+const fs = require('fs');
 function testPlugin() {
   return {
     name: 'esbuild-plugin-vite-element-ui',

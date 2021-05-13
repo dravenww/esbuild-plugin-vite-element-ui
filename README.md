@@ -6,6 +6,10 @@
 
 # use
 
+```
+npm install esbuild-plugin-vite-element-ui
+```
+
 in vite.config.js
 ```
 import esbuildPlugin from 'esbuild-plugin-vite-element-ui';

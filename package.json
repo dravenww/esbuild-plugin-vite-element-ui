@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-vite-element-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esbuild-plugin-vite-element-ui",
   "main": "index.js",
   "scripts": {
