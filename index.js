@@ -5,9 +5,10 @@ function testPlugin() {
     setup(build) {
       build.onLoad({ filter: /node_modules\/element-ui/ }, async (args) => {
         let text = fs.readFileSync(args.path, 'utf8');
-        const res = text.replace("var _vue = require('vue');", "var _vue = require('vue');\n _vue.__esModule = true");
+        text = text.replace("var _vue = require('vue');", "var _vue = require('vue');\n _vue.__esModule = true");
+        text = text.replace("var _resizeObserverPolyfill = require('resize-observer-polyfill');", "var _resizeObserverPolyfill = require('resize-observer-polyfill');\n _resizeObserverPolyfill.__esModule = true");
         return {
-          contents: res,
+          contents: text,
           loader: 'default'
         }
       })
